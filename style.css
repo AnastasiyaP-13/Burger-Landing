@@ -73,6 +73,13 @@ img {
     opacity: 0.8;
 }
 
+.btn-small{
+    width: 140px; 
+    height: 40px; 
+    font-size: 12px;
+
+}
+
 /* ШАПКА */
 
 .header {
@@ -246,20 +253,45 @@ img {
     margin-top: 10px;
 }
 
-.product {}
+.product {
+    padding: 150px 0;
+}
 
-.container {}
 
-.poduct_card {}
 
+.product .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.poduct_card {
+    box-sizing: border-box;
+    width: 555px;
+    min-height: 300px;
+    padding: 60px 30px 60px 290px;
+    background-color: #3c3131;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.poduct_card:nth-child(even){
+
+    padding-left: 30px;
+    padding-right: 290px;
+}
 .product_title {
     font-size: 30px;
+    margin-bottom: 20px;
 
 
 }
 
 .product_desc {
     opacity: 0.70;
+    margin-bottom: 10px;
 
 
 }
@@ -270,13 +302,35 @@ img {
     letter-spacing: 1.60px;
 }
 
+.product_price + .product_price {
+    margin-left: 5px;
+}
+
 
 
 .product_price-old {
     opacity: 0.50;
     text-decoration: line-through;
-
+    margin-top: 10px;
 
 }
 
+.product .btn {
+    margin-top: 10px;
+}
+
 .btn-small {}
+
+
+.card-queen {
+    background-image: url(./images/product-1.jpg);
+}
+.card-hut{
+    background-image: url(./images/product-2.jpg);
+}
+.card-king {
+
+    background-image: url(./images/product-3.jpg);
+}
+.card-papa {
+    background-image: url(./images/product-4.jpg);}
