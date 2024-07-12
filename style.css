@@ -73,9 +73,9 @@ img {
     opacity: 0.8;
 }
 
-.btn-small{
-    width: 140px; 
-    height: 40px; 
+.btn-small {
+    width: 140px;
+    height: 40px;
     font-size: 12px;
 
 }
@@ -277,11 +277,12 @@ img {
     background-position: center;
 }
 
-.poduct_card:nth-child(even){
+.poduct_card:nth-child(even) {
 
     padding-left: 30px;
     padding-right: 290px;
 }
+
 .product_title {
     font-size: 30px;
     margin-bottom: 20px;
@@ -302,7 +303,7 @@ img {
     letter-spacing: 1.60px;
 }
 
-.product_price + .product_price {
+.product_price+.product_price {
     margin-left: 5px;
 }
 
@@ -325,86 +326,186 @@ img {
 .card-queen {
     background-image: url(./images/product-1.jpg);
 }
-.card-hut{
+
+.card-hut {
     background-image: url(./images/product-2.jpg);
 }
+
 .card-king {
 
     background-image: url(./images/product-3.jpg);
 }
+
 .card-papa {
-    background-image: url(./images/product-4.jpg);}
+    background-image: url(./images/product-4.jpg);
+}
 
 
-    /* FEEDBACK */
+/* FEEDBACK */
 
 .feedback {
-        padding-bottom: 200px;
-    }
+    padding-bottom: 200px;
+}
+
 .feedback .container {
-        display:flex;
-        align-items: center;
-        justify-content: space-between;
-        max-width: 880px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 880px;
 
-    }
+}
 
-.container {
-        
-    }
+.container {}
 
-.feedback_img {
+.feedback_img {}
 
-    }
 .feedback_text {
-        margin: 0;
-        width: 370px;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        
+    margin: 0;
+    width: 370px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 
-        
-    }
-.feedback_text::before{
-        content: url(./images/icons/quote.svg);
-        
-    }
-.feedback_desk{
-        opacity: 0.70;
-        margin: 30px 0;
 
-    }
+
+}
+
+.feedback_text::before {
+    content: url(./images/icons/quote.svg);
+
+}
+
+.feedback_desk {
+    opacity: 0.70;
+    margin: 30px 0;
+
+}
 
 .feedbank_author {
-        font-style: normal;
-        font-weight: 500px;
-        font-size: 24px;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 24px;
 
-    }
+}
+
 .feedback_subauthor {
-        font-weight: 500; 
-        opacity: 0.7;
-        display: block;
+    font-weight: 500;
+    opacity: 0.7;
+    display: block;
 
-    }
+}
 
-    /* DOWNLOAD */
+/* DOWNLOAD */
 
 .download {
     background-color: #312F30;
     padding: 60px 0;
 
-    }
-.download .container{
+}
+
+.download .container {
     display: flex;
     justify-content: space-around;
 
-    }
-.download_title {
-    font-size: 40px; 
-    font-weight: 500; 
-    }
-.btn {
+}
 
-    }
+.download_title {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.btn {}
+
+
+/* FOOTER */
+.footer {
+    padding: 120px;
+}
+
+.footer a {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8);
+    transition: 0.3s color;
+}
+.footer a:hover {
+
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.footer .footer_title {
+    display:inline-block;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    color:#fff;
+    
+}
+
+.footer .container {
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr ;
+}
+.footer_contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.footer_logo {
+    display: inline-block;
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.footer_link{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer_link + .footer_link {
+    margin-top: 10px;
+}
+.footer_link::before{
+content: url(./images/icons/global.svg);
+width: 12px;
+height:  12px;
+}
+.footer_link-mail::before{
+    content: url(./images/icons/mail.svg);
+}
+
+.footer_link-mail {}
+
+.footer_socials {}
+
+.footer_link-web {}
+
+.footer_nav {}
+
+.footer_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+    
+
+.footer_list-title {}
+
+.footer_inner-list {}
+
+.footer_list-item + .food-list-item {
+margin-top: 15px;
+}
+
+
+
+.footer_list-item {}
+
+.footer_social-icons {}
+
+.footer_social-link + .footer_social-link{
+    margin-left: 8px;
+
+}
