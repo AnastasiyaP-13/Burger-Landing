@@ -9,6 +9,10 @@ body {
     color: #fff;
 }
 
+cite {
+    font-style: normal;
+}
+
 /* ОБЩИЙ СТИЛЬ ДЛЯ ССЫЛОК ЗАДАЁТСЯ ОТДЕЛЬНО */
 
 a {
@@ -346,6 +350,7 @@ img {
     text-align: center;
     display: flex;
     flex-direction: column;
+    font-size: 24px;
 }
 
 .feedback_text::before {
@@ -367,6 +372,7 @@ img {
     font-weight: 500;
     opacity: 0.7;
     display: block;
+    font-size: 12px
 }
 
 /* DOWNLOAD */
@@ -602,7 +608,7 @@ img {
         padding-left: 50%;
     }
 
-    .product_car:nth-child(even) {
+    .product_card:nth-child(even) {
         padding-right: 50%;
     }
 }
@@ -712,7 +718,7 @@ img {
         padding-left: 30px;
     }
 
-    .product_car:nth-child(even) {
+    .product_card:nth-child(even) {
         padding-right: 30px;
     }
 
@@ -724,7 +730,8 @@ img {
         position: relative;
         text-align: center;
     }
-    .product .btn{
+
+    .product .btn {
         margin-left: auto;
         margin-right: auto;
     }
@@ -761,5 +768,9 @@ img {
         position: absolute;
         left: 0;
         top: 0;
+    }
+
+    .feedback_text {
+        margin-top: 37px;
     }
 }
